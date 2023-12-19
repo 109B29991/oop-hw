@@ -1,4 +1,5 @@
 package Ex09;
+import Ex09.sub2.Compute;
 
 public class Ex12_9 {
     public static void main(String[] args) {
