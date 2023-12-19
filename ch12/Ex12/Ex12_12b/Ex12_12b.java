@@ -13,6 +13,6 @@ class Sum {
 public class Ex12_12b {
     public static void main(String[] args) {
         Sum f = new Sum();
-        System.out.println("sum(5)= " + f.add(5));
+        System.out.println("sum(5)= " + f.add(10));
     }
 }
