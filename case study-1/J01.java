@@ -27,7 +27,6 @@ class MiniNote extends HD { // (5)
         cost = (inch + speed + HD_1) * 1.4;
         return cost;
     }
-
     // (7)
     int getPrice() {
         price = (inch + speed + HD_1) * 2;
@@ -40,7 +39,6 @@ class MiniNote extends HD { // (5)
         name = "MiniNote";
         return name;
     }
-
 }
 
 class Note15 extends HD { // (6)
