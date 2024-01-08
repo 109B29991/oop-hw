@@ -15,8 +15,7 @@ class HD_2 extends CPU_2 {
     int G_160 = 2800;
 }
 
-// (1)
-class PC_2 extends HD_2 {
+class PC_2 extends HD_2 {   // (1)
     int speed = speed_240;
     int HD_2 = G_160;
     int cost = (speed + HD_2) + 500;
