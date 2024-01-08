@@ -37,8 +37,7 @@ class PC_2 extends HD_2 {   // (1)
     }
 }
 
-// (2)
-class MultiPC_2 extends HD_2 {
+class MultiPC_2 extends HD_2 {   // (2)
     int speed = speed_240;
     int HD_2 = G_160;
     int speed_n = 0;
@@ -71,8 +70,7 @@ class MultiPC_2 extends HD_2 {
 
 public class JPD06_2 {
     public static void main(String[] args) {
-        // (3)
-        PC_2 obj1 = new PC_2();
+        PC_2 obj1 = new PC_2();    // (3)
         MultiPC_2 obj2 = new MultiPC_2(2, 4);
         MultiPC_2 obj3 = new MultiPC_2(4, 8);
         System.out.println(obj1.getName() + " cost:" + obj1.getCost() + ", price:" + obj1.getPrice());
