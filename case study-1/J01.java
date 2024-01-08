@@ -1,5 +1,3 @@
-package case_study_1;
-
 class LCD_2 {
     int inch_10 = 2000;
     int inch_15 = 2500;
